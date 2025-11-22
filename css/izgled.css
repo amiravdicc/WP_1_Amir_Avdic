@@ -1,0 +1,194 @@
+html {
+    background: #c5c0e4;
+}
+
+body {
+    font-size: 12px;
+    font-family: Verdana, Arial, sans-serif;
+    color: #484645;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* LOGO sa ljubicastim okvirom */
+header img {
+    margin: 10px 0 10px 30px;
+    background: #c5c0e4;
+    padding: 10px;
+    border-radius: 6px;
+    display: block;
+}
+
+/* HEADER – puni sirinu, ista pozadina kao stranica */
+header {
+    width: 100%;
+    margin: 0;
+    background-color: #c5c0e4;
+    padding-bottom: 10px;
+}
+
+/* ===================== NAV BAR ===================== */
+
+nav {
+    width: 100%;
+    background-color: oklab(42.697% 0.11011 -0.19913); /* tamno ljubicast tab */
+}
+
+/* flex raspored stavki preko cijelog bara */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 40px;
+    display: flex;
+    justify-content: center;   /* centriraj cijeli meni */
+    gap: 40px;                 /* razmak izmedju stavki */
+}
+
+/* svaki li kao pojedinacni tab */
+nav ul li {
+    flex: 0 0 auto;
+}
+
+/* linkovi u tabu */
+nav a,
+nav a:visited,
+nav a:active {
+    color: white;
+    padding: 12px 24px;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+/* hover efekat */
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ===================== SADRZAJ ===================== */
+
+article {
+    width: 100%;
+    margin: 0;
+    padding: 20px 80px;
+    box-sizing: border-box;
+    border-bottom: 2px solid oklab(42.697% 0.11011 -0.19913);
+    min-height: 600px;
+    background-color: #c5c0e4;
+}
+
+/* slika u clanku */
+article img {
+    float: right;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+/* GLOBAL LINKOVI U TEKSTU */
+a,
+a:hover,
+a:visited,
+a:active {
+    color: oklab(42.697% 0.11011 -0.19913);
+    font-weight: bold;
+}
+
+/* NASLOVI */
+h2,
+h3 {
+    color: oklab(42.697% 0.11011 -0.19913);
+}
+
+/* ===================== FOOTER ===================== */
+
+footer {
+    padding-top: 15px;
+    min-height: 30px;
+    background: #c5c0e4;
+    color: #484645;
+    text-align: center;
+    border-top: 2px solid oklab(42.697% 0.11011 -0.19913);
+}
+
+/* ===================== TABELE ===================== */
+
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    font-size: 12px;
+    border: solid 1px #6d6c6c;
+    padding: 5px 3px;
+}
+
+th {
+    color: #6d6c6c;
+    background-color: #f7dcdc;
+    height: 30px;
+}
+
+td:nth-child(4) {
+    text-align: right;
+    padding-right: 5px;
+}
+
+tr:nth-child(odd) {
+    background-color: #e8e8e8;
+}
+
+/* ===================== IFRAME ===================== */
+
+iframe {
+    margin-top: 20px;
+}
+
+/* ===================== FORME ===================== */
+
+fieldset {
+    width: 50%;
+    margin-bottom: 15px;
+    background-color: #f0f0f0;
+}
+
+fieldset legend {
+    color: oklab(42.697% 0.11011 -0.19913);
+    font-weight: bold;
+}
+
+label {
+    display: inline-block;
+    width: 30%;
+}
+
+input[type=radio] + label,
+input[type=checkbox] + label {
+    width: auto;
+}
+
+select,
+input[type=text],
+input[type=email],
+textarea {
+    box-sizing: border-box;
+    width: 60%;
+    margin-bottom: 5px;
+}
+
+input[type=checkbox] {
+    margin-left: 30%;
+}
+
+/* DUGME */
+
+button {
+    background-color: oklab(42.697% 0.11011 -0.19913);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
