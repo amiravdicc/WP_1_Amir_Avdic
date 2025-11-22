@@ -1,3 +1,5 @@
+IPI Akademija – Projekat
+
 Ovo je moj projekat rađen kroz semestar za predmet Web Programiranje.
 Sve stranice, igre i dodatne stvari koje sam radio nalaze se u ovom jednom projektu.
 Projekat se pokreće offline, samo se otvori index.html u browseru i sve radi.
